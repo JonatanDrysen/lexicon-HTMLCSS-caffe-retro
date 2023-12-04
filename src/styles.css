@@ -1,0 +1,27 @@
+body {
+    font-family: 'Poiret One', sans-serif;
+    font-family: 'Spirax', sans-serif;      
+    background-color: darkred;
+    margin: 0;
+}
+
+section {
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin-bottom: 1rem;
+    background-position: center;
+    background-color: black;
+}
+
+.sectionHot {
+    background-image: url("/assets/hot.jpg");
+}
+
+.sectionJuicy {
+    background-image: url("/assets/juicy.jpg");
+}
+
+.sectionCosy {
+    background-image: url("/assets/cosy.jpg");
+    margin-bottom: 0;
+}
