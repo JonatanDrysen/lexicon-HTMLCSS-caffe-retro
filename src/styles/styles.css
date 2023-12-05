@@ -21,7 +21,7 @@
 
 .text1 {
     font-family: 'Poiret One', sans-serif;
-    background-color: rgba(139, 0, 0, 0.6);
+    background-color: rgba(139, 0, 0, 0.8);
     color: white;
     display: flex;
     justify-content: flex-start;
@@ -34,7 +34,7 @@
 
 .text2 {
     font-family: 'Poiret One', sans-serif;
-    background-color: rgba(139, 0, 0, 0.6);
+    background-color: rgba(139, 0, 0, 0.8);
     color: white;
     display: flex;
     justify-content: flex-end;
@@ -47,7 +47,7 @@
 
 .menuContainer {
     font-family: 'Poiret One', sans-serif;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.8);
     color: white;
     margin: auto;
     margin-top: 1rem;
