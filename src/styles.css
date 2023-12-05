@@ -1,5 +1,4 @@
 body {
-    font-family: 'Poiret One', sans-serif;
     font-family: 'Spirax', sans-serif;      
     background-color: darkred;
     margin: 0;
@@ -25,15 +24,81 @@ a {
 }
 
 section {
-    background-repeat: no-repeat;
-    height: 100vh;
-    margin-bottom: 1rem;
-    background-position: center;
     background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 1rem;
+    height: 100vh;
 }
 
 .sectionHot {
     background-image: url("/assets/hot.jpg");
+}
+
+.headerHot {
+    color: darkred;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    font-size: 6rem;
+}
+
+.textHot1 {
+    font-family: 'Poiret One', sans-serif;
+    background-color: rgba(139, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    margin: auto;
+    max-width: fit-content;
+    margin-left: 30%;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+.textHot2 {
+    font-family: 'Poiret One', sans-serif;
+    background-color: rgba(139, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    margin: auto;
+    max-width: fit-content;
+    margin-right: 30%;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+.menuHotContainer {
+    font-family: 'Poiret One', sans-serif;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    margin: auto;
+    margin-top: 1rem;
+    padding: 1rem;
+    width: 40%;
+}
+
+.menuHotList {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menuHotItem {
+    padding: 3px;
+}
+
+.menuHotItemName {
+    display: table-cell;
+    float: left;
+}
+
+.menuHotItemPrice {
+    display: table-cell;
+    float: right;
 }
 
 .sectionJuicy {
