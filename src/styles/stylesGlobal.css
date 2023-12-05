@@ -6,12 +6,13 @@ body {
 
 nav {
     background-color: rgba(79, 28, 83, 0.6);
-    height: 4rem;
-    width: 100vw;
     display: flex;
     flex-direction: row;
     justify-content: center;
     position: static;
+    height: 4rem;
+    width: 78.5%;
+    margin: 0 auto;
 }
 
 a {
